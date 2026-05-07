@@ -11,7 +11,7 @@ let settings = {
     matrixColor2: '#ff1493', // Màu pink mẫu
     sequence: 'I`M|TRULY|SORRY|MY|LOVE|AINA|MAISARAH|❤',
     sequenceColor: '#ff69b4', // Màu pink mẫu
-    gift: './image/happy3.gif',
+    gift: './image/happy3.jpeg',
     enableBook: true,
     pages: [
         // --- Lembar 1 (data-page="0") ---
@@ -19,16 +19,16 @@ let settings = {
             image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
         },
         { 
-            image: './image/photos/b1.png', // Menggantikan lhvuck.png (Index 1)
+            image: './image/photos/b1.jpeg', // Menggantikan lhvuck.png (Index 1)
         },
 
         // --- Lembar 2 (data-page="1") ---
         { 
-            image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
+            image: './image/photos/b2.jpeg', // Menggantikan fjr3qh.png (Index 2)
             content: 'Hi Sayang b tak berniat pun nak menyakitimu & b banyak kecewakan you,b mintak maaf okey sayangg 💗' 
         },
         { 
-            image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
+            image: './image/photos/b3.jpeg', // Menggantikan 8u5tf7.png (Index 3)
         },
 
         // --- Lembar 3 (data-page="2") ---
@@ -89,7 +89,7 @@ const gifOptions = [
     { value: './gif/Cat Love GIF by KIKI.gif', label: 'Gif2' },
     { value: './gif/Happy-Birthday-GIF-by-BREAD-TR-unscreen.gif', label: 'Gif3' },
     { value: './gif/happy2.gif', label: 'Gif4' },
-    { value: './gif/happy3.gif', label: 'Gif5' },
+    { value: './gif/happy3.jpeg', label: 'Gif5' },
 ];
 const musicPreviewButton = document.getElementById('musicPreviewButton');
 const musicPreviewStatus = document.getElementById('musicPreviewStatus');
@@ -351,7 +351,7 @@ function initializeDefaultSettings() {
         matrixColor2: '#ff1493', // Màu pink mẫu
         sequence: 'I`M|TRULY|SORRY|MY|LOVE|AINA|MAISARAH|❤',
         sequenceColor: '#ff69b4', // Màu pink mẫu
-        gift: './image/happy3.gif',
+        gift: './image/happy3.jpeg',
         enableBook: true,
         enableHeart: true,
         isSave: false,  
@@ -362,21 +362,21 @@ function initializeDefaultSettings() {
                 image: './image/theend.jpg', // Menggantikan bolsw2.png (Index 0)
             },
             { 
-                image: './image/photos/b1.png', // Menggantikan lhvuck.png (Index 1)
+                image: './image/photos/b1.jpeg', // Menggantikan lhvuck.png (Index 1)
             },
 
             // --- Lembar 2 (data-page="1") ---
             { 
-                image: './image/photos/b2.png', // Menggantikan fjr3qh.png (Index 2)
+                image: './image/photos/b2.jpeg', // Menggantikan fjr3qh.png (Index 2)
                 content: 'Hi Sayang b tak berniat pun nak menyakitimu & b banyak kecewakan you,b mintak maaf okey sayangg 💗' 
             },
             { 
-                image: './image/photos/b3.png', // Menggantikan 8u5tf7.png (Index 3)
+                image: './image/photos/b3.jpeg', // Menggantikan 8u5tf7.png (Index 3)
             },
 
             // --- Lembar 3 (data-page="2") ---
             { 
-                image: './image/photos/b5.png', // Menggantikan tbutvj.png (Index 4)
+                image: './image/photos/b5.jpeg', // Menggantikan tbutvj.png (Index 4)
                 content: 'Setiap kali melihatmu,selalu mengingatkanku untuk menjadi versi lebih baik, I hope you happy with my art work, my love❤' 
             }
         ]
